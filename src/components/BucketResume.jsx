@@ -23,15 +23,19 @@ const BucketResume = () => {
               <span style={{ color: "#00ff99", fontWeight: "500" }}>
                 frontend and backend
               </span>{" "}
-              technologies , with expertise in React.js, Node.js, and scalable
-              web application development, demonstrated through my{" "}
+              technologies, with hands-on experience in building scalable web
+              applications using{" "}
               <span style={{ color: "#00ff99", fontWeight: "500" }}>
-                {" "}
-                internships at Roxwell Technologies.{" "}
+                React.js, NestJS, GraphQL, TypeORM, and MySQL
+              </span>
+              , gained while working on real-world fintech products at{" "}
+              <span style={{ color: "#00ff99", fontWeight: "500" }}>
+                Ambak(TENB Fintech Private Ltd.).
               </span>
             </p>
           </div>
         </div>
+
         <div className={`${styles.branding_social} `}>
           <a
             download="resume"

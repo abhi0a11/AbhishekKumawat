@@ -2,6 +2,18 @@ import styles from "./Experience.module.css";
 import { FaExternalLinkAlt } from "react-icons/fa";
 const Exp = [
   {
+    "year": "February 2025 – Present",
+    "name": "Ambak",
+    "designation": "Software Developer",
+    "link": "",
+    "work": [
+      "Contributed to the development and enhancement of internal and partner-facing platforms like Sangam and Sathi Web, streamlining the home loan journey.",
+      "Built and maintained modular and responsive UI components using React.js, aligned with business requirements and design systems.",
+      "Developed and integrated secure GraphQL APIs using NestJS and TypeORM, ensuring efficient backend communication and data consistency across services.",
+      "Collaborated cross-functionally with product and design teams to implement features for lead management, user roles, and financial calculators."
+    ]
+  },  
+  {
     year: "03 July - 02 Aug 2024",
     name: "Roxwell Technologies Pvt. Ltd.",
     designation: "Full Stack Itern",

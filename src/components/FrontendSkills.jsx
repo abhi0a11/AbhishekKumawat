@@ -2,6 +2,7 @@
 import { IoLogoHtml5 } from "react-icons/io";
 import { IoLogoCss3 } from "react-icons/io";
 import { RiJavascriptFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import styles from "./Frontend.module.css";
@@ -21,6 +22,12 @@ const skills = [
   {
     logo: <RiJavascriptFill className={`${styles.logo}`} />,
     lang: "JAVASCRIPT",
+    percent: "85%",
+    style: "js",
+  },
+  {
+    logo: <SiTypescript className={`${styles.logo}`} />,
+    lang: "TYPESCRIPT",
     percent: "85%",
     style: "js",
   },

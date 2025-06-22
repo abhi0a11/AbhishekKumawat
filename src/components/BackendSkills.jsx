@@ -1,10 +1,9 @@
-import styles from "./Backend.module.css";
 import { FaNodeJs } from "react-icons/fa6";
-import { SiExpress } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
-import { SiSocketdotio } from "react-icons/si";
+import { SiExpress, SiMongodb, SiNestjs, SiSocketdotio, SiWebrtc } from "react-icons/si";
 import { TbBrandMysql } from "react-icons/tb";
-import { SiWebrtc } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
+import { GrGraphQl } from "react-icons/gr";
+import styles from "./Backend.module.css";
 const skills = [
   {
     logo: <FaNodeJs className={`${styles.logo}`} />,
@@ -29,6 +28,17 @@ const skills = [
   {
     logo: <SiWebrtc className={`${styles.logo}`} />,
     lang: "Web RTC(PeerJS)",
+  },
+  {
+    logo: <SiNestjs className={`${styles.logo}`} />,
+    lang: "NEST JS",
+  },
+  {
+    logo: <GrGraphQl className={`${styles.logo}`} />,
+    lang: "GraphQl",
+  },{
+    logo: <DiMysql className={`${styles.logo}`} />,
+    lang: "MySQL",
   },
 ];
 const BackendSkills = () => {

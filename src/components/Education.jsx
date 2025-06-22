@@ -5,7 +5,7 @@ const education = [
     year: "2021-2025",
     institution: "Netaji Subhas University Of Technology",
     class: "Computer Science with Internet of Things",
-    percent: "7.62 cgpa",
+    percent: "7.7 cgpa",
   },
   {
     year: "2019-2020",
