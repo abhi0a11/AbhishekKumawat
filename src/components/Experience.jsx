@@ -2,7 +2,19 @@ import styles from "./Experience.module.css";
 import { FaExternalLinkAlt } from "react-icons/fa";
 const Exp = [
   {
-    "year": "February 2025 – Present",
+    "year": "August 2025 - Present",
+    "name": "Tractor Junction",
+    "designation": "SDE-1",
+    "link": "",
+    "work": [
+      "Developed OPS Agent, an automated system for finance document verification, reducing manual errors by 90%.",
+      "Implemented an Access Control Layer (ACL) to manage role-based access across multiple modules,ensuring secure and structured authorization.",
+      "Designed and deployed modular microservices architecture, improving scalability, maintainability, and adherence to the Single Responsibility Principle.",
+      "Engineered and maintained scalable backend systems with a focus on performance, reliability, and code quality."
+    ]
+  },  
+  {
+    "year": "February 2025 - July 2025",
     "name": "Ambak",
     "designation": "Software Developer",
     "link": "",
@@ -25,7 +37,7 @@ const Exp = [
     ],
   },
   {
-    year: "23 November 2024 - Present",
+    year: "23 November 2024 - 15 January 2025",
     name: "Outlier.ai",
     designation: "Freelancer - Prompt Engineer",
     link: "",

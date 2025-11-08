@@ -3,6 +3,7 @@ import { SiExpress, SiMongodb, SiNestjs, SiSocketdotio, SiWebrtc } from "react-i
 import { TbBrandMysql } from "react-icons/tb";
 import { DiMysql } from "react-icons/di";
 import { GrGraphQl } from "react-icons/gr";
+import { FaPhp } from "react-icons/fa";
 import styles from "./Backend.module.css";
 const skills = [
   {
@@ -39,6 +40,10 @@ const skills = [
   },{
     logo: <DiMysql className={`${styles.logo}`} />,
     lang: "MySQL",
+  },
+  {
+    logo: <FaPhp className={`${styles.logo}`} />,
+    lang: "PHP Laravel",
   },
 ];
 const BackendSkills = () => {
